@@ -1,0 +1,95 @@
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: yellow;
+    margin: 0;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("karcher preland mob 11 02.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+.headline{
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 31px 55px 0 21px;
+}
+.circles-block{
+    width: 206px;
+    height: 13px;
+    margin: 27px 85px 0 85px;
+}
+.questionsDiv{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.answersDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.answerBtn{
+    width: 212px;
+    height: 35px;
+    background-color: #fff007;
+    color: #2e3033;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.questions-answers-block{
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 36px;
+}
+.slider-line{
+    width: 350px;
+    height: max-content;
+    position: relative;
+}
+.circles-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 15px;
+    position: relative;
+    z-index:  100;
+    overflow: hidden;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.yellow-circle{
+    width: 10px;
+    height: 10px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: #fff007;
+    position: absolute;
+    left: 20px;
+}
